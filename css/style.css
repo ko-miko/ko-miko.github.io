@@ -1,0 +1,261 @@
+* {
+    font-family: 'roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    position: fixed;
+}
+
+.header {
+    position: relative;    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none; 
+}
+
+.menu .menu_link { 
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.menu .menu_item { 
+    border-right: 2px dotted black;
+    padding-right: 18px; 
+}
+
+.subheader {
+    height: 84px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.subheader .subheader_logo {
+    display: flex;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.subheader .subheader_call {
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+}
+
+.subheader .subheader_phone { 
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align:right;
+    text-transform: uppercase;
+}
+
+.subheader .subheader_btn {
+    display: block;
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 4px; 
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    padding: 151px 0 135px 0;
+    background: url(../img/main_string.jpg) center center/cover no-repeat;   
+}
+
+.promo .promo_header {
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.promo .promo_subheader {
+    color: #ffffff;
+    font-size: 36px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    margin: 0;
+    margin-top: 21px;
+}
+
+.promo .promo_descr {
+    margin-top: 18px;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.promo .send_an_application {
+    display: block;
+    margin: 118px auto 0 auto;
+    margin-top: 118px;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border:none;
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 68px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.center {
+    min-height: 900px;
+    padding: 70px 0 60px 0;
+}
+
+.center_top { 
+    display: flex;
+    margin: 70px auto 0 auto;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Roboto - Thin";
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+}
+
+.center_subtop  {
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.center_wrapper {
+    margin-top: 40px;
+    padding-left: 110px;
+}
+
+.center .col-6 {
+    display: flex;
+}
+
+.center .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    width: 115px;
+    height: 115px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.center .col-6 .reasons_descr {
+    margin: 0px 102px 35px 35px;
+}
+
+.center .col-6 .reasons_subtitle {
+    color: #1eacc7;
+    font-family: "Roboto - Regular";
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.center .col-6 .reasons_text {
+    font-family: "Roboto - Light";
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+
+.mobile .test1  {
+    color: red;
+    margin-top: 50px;
+
+}
